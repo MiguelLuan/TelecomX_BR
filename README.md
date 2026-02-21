@@ -13,6 +13,7 @@
  <a href="#objective">Objetivo</a> • 
  <a href="#problem">O Problema</a> • 
  <a href="#results">Insights de Negócio</a> •
+ <a href="#graphics">Gráficos</a> •
  <a href="#strategy">Estratégia Recomendada</a> • 
  <a href="#techs">Tecnologias</a> • 
  <a href="#next">Próximos Passos</a>
@@ -51,6 +52,20 @@ A fatura digital gera um churn de **~45%** entre idosos. O documento físico (pa
 
 ### 4. O "Escudo" do Suporte Técnico 🛠️
 A adesão ao <strong>suporte técnico</strong> reduz a probabilidade de cancelamento de um idoso de **~51% para ~20%**. O suporte técnico não é apenas um serviço, é o maior motor de retenção da base sênior.
+
+---
+
+<h2 id="graphics">📊 Principais Gráficos
+
+<p align="center"><img src="images/cancelamento_por_servico_internet_segmentado_idade.png"  width="80%"></p>
+
+<p align="center"><img src="images/cancelamento_suport_segmentado_idade.png"  width="80%"></p>
+
+<p align="center"><img src="images/cancelamento_por_faturamentodigital_segmentado_idade.png"  width="80%"></p>
+
+<p align="center"><img src="images/cancelamento_por_metodopagamento_segmentado_idade.png"  width="80%"></p>
+
+<p align="center"><img src="images/adesao_servicos_estruturafamiliar.png" width="80%"></p>
 
 ---
 
