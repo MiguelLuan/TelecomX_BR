@@ -16,7 +16,7 @@
  <a href="#graphics">Gráficos</a> •
  <a href="#strategy">Estratégia Recomendada</a> • 
  <a href="#techs">Tecnologias</a> • 
- <a href="#next">Próximos Passos</a>
+ <a href="#next">Próximos Passos</a> •
  <a href="#structure">Estrutura</a> • 
  <a href="#execute">Como Executar</a> • 
  <a href="#license">Licença</a>
