@@ -130,5 +130,5 @@ pip install pandas numpy matplotlib seaborn
 
 <h2 id="license"> 📝 Licença </h2>
 
-Este projeto está sob a licença MIT.
+Este projeto está sob a licença [MIT](https://github.com/MiguelLuan/TelecomX_BR/blob/main/LICENSE).
 
