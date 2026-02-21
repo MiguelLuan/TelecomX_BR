@@ -25,6 +25,7 @@
 <h2 id="objective"> 📊 Objetivo</h2>
 Este projeto realiza uma <strong>Análise Exploratória de Dados (EDA</strong>) com foco na evasão de clientes (<strong>Churn</strong>) da empresa fictícia <strong>TelecomX_BR</strong>.
 A proposta é identificar padrões comportamentais e fatores que influenciam o cancelamento de contratos, permitindo a criação de estratégias orientadas por dados para retenção de clientes.
+
 ---
 
 <h2 id="problem">🎯 O Problema de Negócio</h2> 
@@ -40,16 +41,16 @@ A TelecomX_BR identificou que o cancelamento não é homogêneo. Através desta 
 <h2 id="results"> 📈 Insights de Negócio (O que os dados revelaram)</h2>
 
 ### 1. A Vulnerabilidade do Público Sênior 👴
-Identificamos que o Churn entre idosos chega a **49,1%** quando não há suporte técnico especializado. A falta de uma rede de apoio familiar ("Idosos Solitários") é o principal catalisador de cancelamento.
+Identificamos que o Churn entre idosos chega a **~50%** quando não há suporte técnico especializado. A falta de uma rede de apoio familiar ("Idosos Solitários") é o principal catalisador de cancelamento.
 
 ### 2. O Paradoxo da Fibra Óptica 📡
 Embora atraia clientes, a Fibra Óptica gera alto churn em faturas de entrada. No entanto, clientes com **Ticket Médio acima de R$ 95,00** e múltiplos serviços de segurança tendem a ser extremamente fiéis.
 
 ### 3. Atrito Digital e Faturamento 📄
-A fatura digital gera um churn de **44,9%** entre idosos. O documento físico (papel) ainda atua como uma ferramenta crucial de controle e lembrete para este grupo, reduzindo drasticamente a evasão.
+A fatura digital gera um churn de **~45%** entre idosos. O documento físico (papel) ainda atua como uma ferramenta crucial de controle e lembrete para este grupo, reduzindo drasticamente a evasão.
 
 ### 4. O "Escudo" do Suporte Técnico 🛠️
-A adesão ao `TechSupport` reduz a probabilidade de cancelamento de um idoso de **49,1% para apenas 15,4%**. O suporte técnico não é apenas um serviço, é o maior motor de retenção da base sênior.
+A adesão ao <strong>suporte técnico</strong> reduz a probabilidade de cancelamento de um idoso de **~51% para ~20%**. O suporte técnico não é apenas um serviço, é o maior motor de retenção da base sênior.
 
 ---
 
@@ -58,7 +59,7 @@ A adesão ao `TechSupport` reduz a probabilidade de cancelamento de um idoso de 
 Com base nos dados, o projeto sugere três pilares de atuação:
 
 1. **Estratégia Híbrida de Faturamento:** Manter a fatura em papel para idosos (segurança visual) enquanto se incentiva o pagamento via débito automático (comodidade e retenção passiva).
-2. **Pacote "Sênior Seguro":** Criação de planos que incluam obrigatoriamente Suporte Técnico e Segurança Online, focando na estabilidade e não apenas na velocidade.
+2. **Pacote "Sênior Seguro":** Criação de planos que incluam Suporte Técnico e Segurança Online, focando na estabilidade e não apenas na velocidade.
 3. **Onboarding Humanizado:** Visitas técnicas de cortesia para garantir que clientes solitários dominem a tecnologia instalada, criando uma barreira de saída baseada na confiança.
 
 ---
@@ -73,9 +74,9 @@ Com base nos dados, o projeto sugere três pilares de atuação:
 
 <h2 id="next">📌 Próximos Passos</h2>
 
-- [ ] **Feature Engineering:** Criar a variável `is_vulnerable_senior` para o modelo de ML.
-- [ ] **Modelagem Preditiva:** Treinar algoritmos de classificação (XGBoost/Random Forest) para prever o Churn proativamente.
-- [ ] **A/B Testing:** Validar o impacto da oferta de Suporte Técnico gratuito em grupos de alto risco.
+-  **Feature Engineering:** Criar a variável `is_vulnerable_senior` para o modelo de ML.
+-  **Modelagem Preditiva:** Treinar algoritmos de classificação (XGBoost/Random Forest) para prever o Churn proativamente.
+-  **A/B Testing:** Validar o impacto da oferta de Suporte Técnico gratuito em grupos de alto risco.
 
 ---
 
