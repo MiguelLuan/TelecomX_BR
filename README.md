@@ -55,7 +55,7 @@ A adesão ao <strong>suporte técnico</strong> reduz a probabilidade de cancelam
 
 ---
 
-<h2 id="graphics">📊 Principais Gráficos
+<h2 id="graphics">📊 Principais Gráficos</h2>
 
 <p align="center"><img src="images/cancelamento_por_servico_internet_segmentado_idade.png"  width="80%"></p>
 
