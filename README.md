@@ -117,13 +117,7 @@ TelecomX_BR
 git clone https://github.com/MiguelLuan/TelecomX_BR.git
 ```
 
-2. Acesse a pasta do projeto:
-
-```bash
-cd TelecomX_BR
-```
-
-3. Execute o notebook:
+2. Execute o notebook:
 
 ```bash
 jupyter notebook TelecomX_BR.ipynb
