@@ -4,9 +4,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-Concluido-green" alt="Status: Concluído"/>
-  <img src="https://img.shields.io/github/languages/count/MiguelLuan/TelecomX_BR" alt="Contagem de Linguagens"/>
+  <img src="https://img.shields.io/github/languages/count/MiguelLuan/TelecomX_BR" alt="Contagem de Linguagens GitHub"/>
   <img src="https://img.shields.io/github/last-commit/MiguelLuan/TelecomX_BR" alt="Último Commit"/>
-  <img src="https://img.shields.io/license/mit" alt="Licença"/>
+  <img src="https://img.shields.io/github/license/MiguelLuan/TelecomX_BR" alt="Licença"/>
+  <img src="https://img.shields.io/github/stars/MiguelLuan/TelecomX_BR" alt="Estrelas"/>
 </p>
 
 <p align="center">
