@@ -13,11 +13,12 @@
 <p align="center">
  <a href="#objective">Objetivo</a> • 
  <a href="#problem">O Problema</a> • 
+ <a href="#problem">Etapas do Processo</a> •  
  <a href="#results">Insights de Negócio</a> •
  <a href="#graphics">Gráficos</a> •
  <a href="#strategy">Estratégia Recomendada</a> • 
- <a href="#techs">Tecnologias</a> • 
  <a href="#next">Próximos Passos</a> •
+ <a href="#techs">Tecnologias</a> • 
  <a href="#structure">Estrutura</a> • 
  <a href="#execute">Como Executar</a> • 
  <a href="#license">Licença</a>
@@ -32,7 +33,7 @@ A proposta é identificar padrões comportamentais e fatores que influenciam o c
 
 <h2 id="problem">🎯 O Problema de Negócio</h2> 
 
-A TelecomX_BR identificou que o cancelamento não é homogêneo. Através desta análise, buscamos responder:
+Identificou-se que o cancelamento não é homogêneo. Através desta análise, buscou-se responder:
 - Por que a **Fibra Óptica** apresenta taxas de evasão tão altas apesar de ser uma tecnologia superior?
 - Como a **estrutura familiar** (morar sozinho vs. com dependentes) influencia a retenção?
 - Qual o impacto real do **Suporte Técnico** na vida de um cliente idoso?
@@ -40,10 +41,46 @@ A TelecomX_BR identificou que o cancelamento não é homogêneo. Através desta 
 
 ---
 
+<h2 id="steps">🪜 Etapas do Processo</h2>
+
+- Introdução e Definição do problema
+  - Contexto em que a empresa se encontra,desde o nicho de atuação até o problema de negócio.
+  - Delimitação do foco da análise.
+- Extração dos dados
+  - Importação de bibliotecas
+  - Carregamento do dataset
+- Transformação dos dados
+  - Normalização de colunas aninhadas
+  - Remoção de colunas estruturais
+  - Concatenação de tabelas
+  - Remoção de valores ausentes
+- Limpeza
+  - Conversão de tipos das colunas
+  - Remoção de valores vazios
+  - Remoção de registros inválidos
+  - Verificação de duplicatas
+- Análise estatística descritiva
+  - Taxa geral de churn
+  - Comparação de métricas entre clientes ativos e cancelados
+  - Análise das taxas de chunr pelas respectivas variáveis
+  - Obs: Utilizando tabelas cruzadas (crosstable)
+- Análise Exploratória de Dados (EDA)
+  - Taxa geral de churn
+  - Churn por tipo de contrato
+  - Churn por tempo de permanência (tenure)
+  - Churn por valor da fatura
+  - Distribuição de churn por quantidade de serviço
+  - Relação de gastos mensais por churn dos clientes que contrataram o serviço de internet fibra ótica
+  - Relação do suporte de internet/tipo de serviço de internet/composição familiar(tenure+partner)/faturamento e método de pagamento segmentado por seniorcitizen
+- Recomendações estatégicas
+  - Identificação do público alvo
+  - Contextualizar cenário em que se encontram o público alvo
+  - Próximos passos,isto é,recomendações a serem tomadas para minimizar a evasão e,conseguinte,o prejuízo à empresa 
+
 <h2 id="results"> 📈 Insights de Negócio (O que os dados revelaram)</h2>
 
 ### 1. A Vulnerabilidade do Público Sênior 👴
-Identificamos que o Churn entre idosos chega a **~50%** quando não há suporte técnico especializado. A falta de uma rede de apoio familiar ("Idosos Solitários") é o principal catalisador de cancelamento.
+Identificou-se que o Churn entre idosos chega a **~50%** quando não há suporte técnico especializado. A falta de uma rede de apoio familiar ("Idosos Solitários") é o principal catalisador de cancelamento.
 
 ### 2. O Paradoxo da Fibra Óptica 📡
 Embora atraia clientes, a Fibra Óptica gera alto churn em faturas de entrada. No entanto, clientes com **Ticket Médio acima de R$ 95,00** e múltiplos serviços de segurança tendem a ser extremamente fiéis.
@@ -80,19 +117,19 @@ Com base nos dados, o projeto sugere três pilares de atuação:
 
 ---
 
-<h2 id="techs"> 🛠️ Tecnologias Utilizadas</h2>
-
-- **Python 3** (Pandas, Matplotlib, Seaborn)
-- **Análise Estatística Segmentada**
-- **Data Visualization Avançada** (Heatmaps de adesão e Barplots comparativos)
-
----
-
 <h2 id="next">📌 Próximos Passos</h2>
 
 -  **Feature Engineering:** Criar a variável `is_vulnerable_senior` para o modelo de ML.
 -  **Modelagem Preditiva:** Treinar algoritmos de classificação (XGBoost/Random Forest) para prever o Churn proativamente.
--  **A/B Testing:** Validar o impacto da oferta de Suporte Técnico gratuito em grupos de alto risco.
+---
+
+<h2 id="techs"> 🛠️ Tecnologias Utilizadas</h2>
+
+- Python 3
+- Pandas
+- Matplotlib
+- Seaborn
+
 
 ---
 
