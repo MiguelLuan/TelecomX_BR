@@ -126,11 +126,11 @@ Com base nos dados, o projeto sugere três pilares de atuação:
 <h2 id="techs"> 🛠️ Tecnologias Utilizadas</h2>
 
 - Python 3
-- Pandas
-- Matplotlib
-- Seaborn
-
-
+- Bibliotecas:
+  - Pandas
+  - Matplotlib
+  - Seaborn
+- Ambiente de exercução: Google Colaboratory
 ---
 
 <h2 id="structure"> 🧩 Estrutura do Projeto</h2>
