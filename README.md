@@ -1,5 +1,5 @@
 <h1 align="center" style="font-weight: bold;">
-  TelecomX_BR 📡 - Estratégias de Retenção baseadas em Comportamento e Dados
+  TelecomX_BR 📡 - Análise Exploratória de Dados (EDA) para identificação de padrões de Churn
 </h1>
 
 <p align="center">
